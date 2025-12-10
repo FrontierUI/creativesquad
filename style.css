@@ -329,9 +329,26 @@ strong {
   padding-top: 2vw;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   grid-template-rows: repeat(4, 1fr);
-  /* grid-auto-flow: column; */
-  /*  vs  */
   grid-auto-flow: column dense;
+}
+
+.clitems:nth-of-type(1),
+.clitems:nth-of-type(2),
+.clitems:nth-of-type(3),
+.clitems:nth-of-type(4),
+.clitems:nth-of-type(5),
+.clitems:nth-of-type(6) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.clitems:nth-of-type(1) img,
+.clitems:nth-of-type(2) img,
+.clitems:nth-of-type(3) img,
+.clitems:nth-of-type(4) img,
+.clitems:nth-of-type(5) img,
+.clitems:nth-of-type(6) img {
+  min-height: 100%;
 }
 
 .cl-logs {
@@ -355,25 +372,6 @@ strong {
   gap: 0.75rem;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.clitems:nth-of-type(1),
-.clitems:nth-of-type(2),
-.clitems:nth-of-type(3),
-.clitems:nth-of-type(4),
-.clitems:nth-of-type(5),
-.clitems:nth-of-type(6) {
-  grid-column: span 2;
-  grid-row: span 2;
-}
-
-.clitems:nth-of-type(1) img,
-.clitems:nth-of-type(2) img,
-.clitems:nth-of-type(3) img,
-.clitems:nth-of-type(4) img,
-.clitems:nth-of-type(5) img,
-.clitems:nth-of-type(6) img {
-  min-height: 100%;
 }
 
 /* .hrright {
@@ -550,7 +548,7 @@ strong {
 .qfbtn {
   background-color: #ffcc04;
   color: #000;
-  padding: 20px 40px;
+  padding: 1rem 2rem;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
@@ -4219,6 +4217,32 @@ nav.open {
   .padBottom {
     padding-bottom: 2rem;
   }
+
+  .clientLogoss {
+    gap: 0.5rem;
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(0, 1fr);
+  }
+
+  .clitems:nth-of-type(1),
+  .clitems:nth-of-type(2),
+  .clitems:nth-of-type(3),
+  .clitems:nth-of-type(4),
+  .clitems:nth-of-type(5),
+  .clitems:nth-of-type(6) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .clitems:nth-of-type(1) img,
+  .clitems:nth-of-type(2) img,
+  .clitems:nth-of-type(3) img,
+  .clitems:nth-of-type(4) img,
+  .clitems:nth-of-type(5) img,
+  .clitems:nth-of-type(6) img {
+    min-height: 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -4523,6 +4547,30 @@ nav.open {
   .padBottom {
     padding-bottom: 3rem;
   }
+
+  .clientLogoss {
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .clitems:nth-of-type(1),
+  .clitems:nth-of-type(2),
+  .clitems:nth-of-type(3),
+  .clitems:nth-of-type(4),
+  .clitems:nth-of-type(5),
+  .clitems:nth-of-type(6) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .clitems:nth-of-type(1) img,
+  .clitems:nth-of-type(2) img,
+  .clitems:nth-of-type(3) img,
+  .clitems:nth-of-type(4) img,
+  .clitems:nth-of-type(5) img,
+  .clitems:nth-of-type(6) img {
+    min-height: 0;
+  }
 }
 
 @media only screen and (max-width: 479px) {
@@ -4541,6 +4589,77 @@ nav.open {
   .five_sixth {
     margin-bottom: 20px !important;
     margin-right: 0% !important;
+  }
+
+  .form-content {
+    flex-direction: column;
+  }
+
+  .form-csquad,
+  .formTitle {
+    width: 100%;
+  }
+  .form-csquad {
+    padding-top: 10vw;
+  }
+
+  .formTitle .primTitle {
+    font-size: calc(3rem + 15vw);
+    line-height: calc(2rem + 11vw);
+  }
+
+  .queryForm {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .clientLogoss {
+    gap: 0.5rem;
+    padding-top: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(1fr); */
+  }
+
+  .clitems {
+    /* grid-column: repeat(2, minmax(0, 1fr)); */
+    /* grid-row: span 1; */
+  }
+
+  .clitems:nth-of-type(1),
+  .clitems:nth-of-type(2),
+  .clitems:nth-of-type(3),
+  .clitems:nth-of-type(4),
+  .clitems:nth-of-type(5),
+  .clitems:nth-of-type(6) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .clitems:nth-of-type(7),
+  .clitems:nth-of-type(8),
+  .clitems:nth-of-type(9),
+  .clitems:nth-of-type(10),
+  .clitems:nth-of-type(11),
+  .clitems:nth-of-type(12),
+  .clitems:nth-of-type(13),
+  .clitems:nth-of-type(14),
+  .clitems:nth-of-type(15),
+  .clitems:nth-of-type(16),
+  .clitems:nth-of-type(17),
+  .clitems:nth-of-type(18),
+  .clitems:nth-of-type(19),
+  .clitems:nth-of-type(20),
+  .clitems:nth-of-type(21),
+  .clitems:nth-of-type(22) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .clitems:nth-of-type(1) img,
+  .clitems:nth-of-type(2) img,
+  .clitems:nth-of-type(3) img,
+  .clitems:nth-of-type(4) img,
+  .clitems:nth-of-type(5) img,
+  .clitems:nth-of-type(6) img {
+    min-height: 0;
   }
 
   .gridCont {
