@@ -750,6 +750,8 @@
 
 .light-content .next-hero-subtitle {
   color: #fff;
+  opacity: 1;
+  font-size: 16px;
 }
 
 .change-header .next-hero-subtitle {
