@@ -372,6 +372,17 @@ strong {
   gap: 1rem;
 }
 
+.rightLogos .bigLogos {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border: 1px solid #ffffff40;
+  border-radius: 1rem;
+}
+
 .leftLogos {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -3870,6 +3881,10 @@ nav.open {
 @media only screen and (max-width: 1024px) {
   .clientlogos-grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .rightLogos .bigLogos {
+    min-height: 0;
   }
 
   .rightLogos {
