@@ -3424,8 +3424,8 @@ input[type='submit'] {
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  padding-top: 20vh;
-  padding-bottom: 15vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
   margin: 0;
 }
 

@@ -234,6 +234,10 @@
           margin-top: 240px;
           font-size: 18px;
         }
+
+        .csquadSlider {
+          padding-top: 5vw;
+        }
       }
 
       @media only screen and (max-width: 767px) {
@@ -301,6 +305,10 @@
         .col-1 {
           flex-basis: 50%;
         }
+
+        .row_padding_bottom {
+          padding-bottom: 5vw;
+        }
       }
 
       .flex-container {
@@ -344,12 +352,40 @@
         .col-1 {
           flex-basis: 50%;
         }
+
+        .sliVideos {
+          min-height: 0 !important;
+        }
       }
 
       @media only screen and (min-width: 1280px) {
         .rightLogos img {
           min-height: 100%;
         }
+
+        .row_padding_bottom {
+          padding-bottom: 5vw;
+        }
+
+        .row_padding_top {
+          padding-top: 5vw;
+        }
+      }
+
+      @media only screen and (min-width: 1900px) {
+        .gridCont {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      .sliVideos {
+        min-height: 450px;
+        max-width: 100%;
+      }
+
+      .csquadSlider {
+        padding-top: 2vw;
       }
     </style>
   </head>
@@ -485,56 +521,7 @@
                   <div
                     id="hero-caption"
                     class="content-full-width parallax-scroll-caption text-align-center height-title"
-                  >
-                    <!-- <div class="inner">
-                      <h1
-                        class="hero-title caption-timeline primary-font-title"
-                      >
-                        <span>Experiential</span>
-                      </h1>
-
-                      <h1
-                        class="hero-title caption-timeline primary-font-title"
-                      >
-                        <span>Meaningful</span>
-                      </h1>
-
-                      <h1
-                        class="hero-title caption-timeline primary-font-title"
-                      >
-                        <span>Unparalleled</span>
-                      </h1>
-
-                      <div class="hero-subtitle caption-timeline">
-                        <span
-                          >WELCOME TO THE CREATIVE SQUAD AGENCY, WE THINK BEYOND
-                          ORDINARY TO BRING OUT YOUR EXTRAORDINARY VISION!<br
-                            class="destroy" />
-                          <br class="destroy"
-                        /></span>
-                      </div>
-                    </div> -->
-                  </div>
-
-                  <!-- <div id="hero-footer">
-                    <div class="hero-footer-left">
-                      <div class="button-wrap right scroll-down">
-                        <div class="icon-wrap parallax-wrap">
-                          <div class="button-icon parallax-element">
-                            <i class="fa-solid fa-angle-down"></i>
-                          </div>
-                        </div>
-                        <div class="button-text sticky right">
-                          <span data-hover="Scroll to Explore"
-                            >Scroll to Explore</span
-                          >
-                        </div>
-                      </div>
-                    </div>
-                    <div class="hero-footer-right">
-                      <div id="info-text">Featured Projects</div>
-                    </div>
-                  </div> -->
+                  ></div>
 
                   <div class="wFull">
                     <div class="socialCont">
@@ -585,261 +572,6 @@
                     class="content-row full text-align-center row_padding_top row_padding_bottom row_padding_left row_padding_right dark-section"
                     data-bgcolor="#0c0c0c"
                   >
-                    <!-- <div id="itemsWrapperLinks">
-                      <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
-                        <div class="overlapping-gallery">
-                          <div class="overlapping-image">
-                            <div
-                              class="overlapping-image-inner trigger-item"
-                              data-centerLine="OPEN"
-                            >
-                              <div class="img-mask">
-                                <a
-                                  class="slide-link"
-                                  data-type="page-transition"
-                                  href="events.html"
-                                ></a>
-                                <div class="section-image trigger-item-link">
-                                  <video
-                                    src="videos/EventNew.mp4"
-                                    autoplay
-                                    loop
-                                    muted
-                                    playsinline
-                                    class="item-image grid__item-img"
-                                  >
-                                    <source
-                                      src="videos/EventNew.mp4"
-                                      type="video/mp4"
-                                    />
-                                  </video>
-                                </div>
-                                <img
-                                  src="images/RedSea/6RedSea.jpg"
-                                  class="grid__item-img grid__item-img--large"
-                                  alt=""
-                                />
-                              </div>
-                              <div
-                                class="slide-caption trigger-item-link-secondary"
-                              >
-                                <div class="slide-title primary-font-title">
-                                  <span>EVENTS</span>
-                                </div>
-                                <div class="slide-date"><span>2024</span></div>
-                                <div class="slide-cat"></div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="overlapping-image">
-                            <div
-                              class="overlapping-image-inner trigger-item"
-                              data-centerLine="OPEN"
-                            >
-                              <div class="img-mask">
-                                <a
-                                  class="slide-link"
-                                  data-type="page-transition"
-                                  href="activation.html"
-                                ></a>
-                                <div class="section-image trigger-item-link">
-                                  <video
-                                    src="videos/BannerActivation.mp4"
-                                    autoplay
-                                    loop
-                                    muted
-                                    playsinline
-                                    class="item-image grid__item-img"
-                                  >
-                                    <source
-                                      src="videos/BannerActivation.mp4"
-                                      type="video/mp4"
-                                    />
-                                  </video>
-                                </div>
-                                <img
-                                  src="images/SADAFCOFLAVOUREDMILK/02.jpg"
-                                  class="grid__item-img grid__item-img--large"
-                                  alt=""
-                                />
-                              </div>
-                              <div
-                                class="slide-caption trigger-item-link-secondary"
-                              >
-                                <div class="slide-title primary-font-title">
-                                  <span>ACTIVATION</span>
-                                </div>
-                                <div class="slide-date"><span>2024</span></div>
-                                <div class="slide-cat"></div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="overlapping-image">
-                            <div
-                              class="overlapping-image-inner trigger-item"
-                              data-centerLine="OPEN"
-                            >
-                              <div class="img-mask">
-                                <a
-                                  class="slide-link"
-                                  data-type="page-transition"
-                                  href="creative.html"
-                                ></a>
-                                <div class="section-image trigger-item-link">
-                                  <video
-                                    src="videos/StoryTelling.mp4"
-                                    autoplay
-                                    loop
-                                    muted
-                                    playsinline
-                                    class="item-image grid__item-img"
-                                  >
-                                    <source
-                                      src="videos/StoryTelling.mp4"
-                                      type="video/mp4"
-                                    />
-                                  </video>
-                                </div>
-                                <img
-                                  src="images/BupaExperience/01A.jpg"
-                                  class="grid__item-img grid__item-img--large"
-                                  alt=""
-                                />
-                              </div>
-                              <div
-                                class="slide-caption trigger-item-link-secondary"
-                              >
-                                <div class="slide-title primary-font-title">
-                                  <span>CREATIVE</span>
-                                </div>
-                                <div class="slide-date"><span>2024</span></div>
-                                <div class="slide-cat"></div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="overlapping-image">
-                            <div
-                              class="overlapping-image-inner trigger-item"
-                              data-centerLine="OPEN"
-                            >
-                              <div class="img-mask">
-                                <a
-                                  class="slide-link"
-                                  data-type="page-transition"
-                                  href="digital.html"
-                                ></a>
-                                <div class="section-image trigger-item-link">
-                                  <video
-                                    src="videos/BannerDigital.mp4"
-                                    autoplay
-                                    loop
-                                    muted
-                                    playsinline
-                                    class="item-image grid__item-img"
-                                  >
-                                    <source
-                                      src="videos/BannerDigital.mp4"
-                                      type="video/mp4"
-                                    />
-                                  </video>
-                                </div>
-                                <img
-                                  src="images/03hero.jpg"
-                                  class="grid__item-img grid__item-img--large"
-                                  alt=""
-                                />
-                              </div>
-                              <div
-                                class="slide-caption trigger-item-link-secondary"
-                              >
-                                <div class="slide-title primary-font-title">
-                                  <span>Digital</span>
-                                </div>
-                                <div class="slide-date"><span>2024</span></div>
-                                <div class="slide-cat"></div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="overlapping-image">
-                            <div
-                              class="overlapping-image-inner trigger-item"
-                              data-centerLine="OPEN"
-                            >
-                              <div class="img-mask">
-                                <a
-                                  class="slide-link"
-                                  data-type="page-transition"
-                                  href="branding.html"
-                                ></a>
-                                <div class="section-image trigger-item-link">
-                                  <video
-                                    src="videos/iIdentity.mp4"
-                                    autoplay
-                                    loop
-                                    muted
-                                    playsinline
-                                    class="item-image grid__item-img"
-                                  >
-                                    <source
-                                      src="videos/iIdentity.mp4"
-                                      type="video/mp4"
-                                    />
-                                  </video>
-                                </div>
-                                <img
-                                  src="images/RuaAlMadinah/Cover.jpg"
-                                  class="grid__item-img grid__item-img--large"
-                                  alt=""
-                                />
-                              </div>
-                              <div
-                                class="slide-caption trigger-item-link-secondary"
-                              >
-                                <div class="slide-title primary-font-title">
-                                  <span>Branding</span>
-                                </div>
-                                <div class="slide-date"><span>2024</span></div>
-                                <div class="slide-cat"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <hr />
-
-                    <p style="text-transform: uppercase">
-                      <span class="has-opacity">Insane Ideas,</span>
-                      <span class="has-opacity">Unparalleled Solutions!</span>
-                    </p>
-
-                    <div
-                      class="button-box text-align-center has-animation fadeout-element"
-                    >
-                      <div class="clapat-button-wrap parallax-wrap hide-ball">
-                        <div class="clapat-button parallax-element">
-                          <div
-                            class="button-border outline rounded parallax-element-second"
-                          >
-                            <a
-                              class="ajax-link"
-                              href="index.html"
-                              data-type="page-transition"
-                            >
-                              <span data-hover="See All Works"
-                                >See All Works</span
-                              >
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
-
                     <div class="wFull">
                       <div class="flexy">
                         <h2
@@ -851,10 +583,7 @@
                       </div>
                     </div>
 
-                    <div
-                      class="csquadSlider wFull position-relative row_padding_top"
-                      dir="ltr"
-                    >
+                    <div class="csquadSlider wFull prel" dir="ltr">
                       <div class="mx-3 slidCard">
                         <div class="flexy prel">
                           <video
@@ -863,8 +592,7 @@
                             loop
                             muted
                             playsinline
-                            class=""
-                            style="max-width: 100%; min-height: 400px"
+                            class="sliVideos"
                           ></video>
                           <div class="pabs">
                             <h2
@@ -875,6 +603,7 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="mx-3 slidCard">
                         <div class="flexy prel">
                           <video
@@ -883,8 +612,7 @@
                             loop
                             muted
                             playsinline
-                            class=""
-                            style="max-width: 100%; min-height: 400px"
+                            class="sliVideos"
                           ></video>
                           <div class="pabs">
                             <h2
@@ -903,8 +631,7 @@
                             loop
                             muted
                             playsinline
-                            class=""
-                            style="max-width: 100%; min-height: 400px"
+                            class="sliVideos"
                           ></video>
                           <div class="pabs">
                             <h2
@@ -923,8 +650,7 @@
                             loop
                             muted
                             playsinline
-                            class=""
-                            style="max-width: 100%; min-height: 400px"
+                            class="sliVideos"
                           ></video>
                           <div class="pabs">
                             <h2
@@ -943,8 +669,7 @@
                             loop
                             muted
                             playsinline
-                            class=""
-                            style="max-width: 100%; min-height: 400px"
+                            class="sliVideos"
                           ></video>
                           <div class="pabs">
                             <h2
@@ -1070,7 +795,7 @@
 
                   <!-- Row -->
                   <div
-                    class="content-row full row_padding_left row_padding_bottom row_padding_top row_padding_right dark-section fadeout-element"
+                    class="content-row full row_padding_left row_padding_top row_padding_right dark-section fadeout-element"
                     data-bgcolor="#0c0c0c"
                   >
                     <div class="wFull prel">
@@ -1255,8 +980,10 @@
                       </div>
                       <div class="list-rotator-pin">
                         <ul class="list-rotator primary-font-title">
-                          <li>EVENTS EXHIBITIONS &#38; ACTIVATIONS</li>
+                          <li>EVENTS EXHIBITIONS</li>
+                          <li>ACTIVATION</li>
                           <li>CREATIVE COMMUNICATION &#38; DESIGN</li>
+                          <li>BRANDING</li>
                           <li>SOCIAL MEDIA &#38; DIGITAL</li>
                         </ul>
                       </div>

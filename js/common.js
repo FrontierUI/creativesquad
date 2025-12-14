@@ -16,7 +16,7 @@ Function Scroll Effects
       slidesToShow: 4,
       responsive: [
         {
-          breakpoint: 1721,
+          breakpoint: 2059,
           settings: { slidesToShow: 3, slidesToScroll: 1, infinite: true },
         },
         {
