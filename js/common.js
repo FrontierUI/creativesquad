@@ -13,7 +13,7 @@ Function Scroll Effects
       pauseOnFocus: false,
       pauseOnHover: false,
       ltr: true,
-      slidesToShow: 4,
+      slidesToShow: 3,
       responsive: [
         {
           breakpoint: 2059,
